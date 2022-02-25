@@ -1,21 +1,22 @@
-.container{
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-.flex-container{
+.row{
 	display: flex;
-	flex-wrap: wrap;
-	gap: 2%;
+	gap: 1rem;
+	background-color: palegoldenrod;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 40px;
 }
 
-h2{
-	flex-basis: 100%;
+.flex-item{
+	width: 300px;
+	padding: 12px;
+	background: gainsboro;
 }
 
-.flex-container > section{
-	flex-basis: calc(96%/3);
-	border: 1px solid darkgrey;
-	border-radius: 4px;
-	padding: 8px;
+.column{
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 1rem;
+	background-color: palegoldenrod;
+	align-items: center;
 }
